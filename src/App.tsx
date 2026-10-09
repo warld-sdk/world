@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import imageCompression from 'browser-image-compression';
 import * as React from 'react';
 import appBrandLogo from './assets/images/warld_brand_logo_1790672485970.jpg';
@@ -19369,6 +19370,7 @@ export default function App() {
   return (
     <AuthProvider>
       <WorldApp />
+      <SpeedInsights />
     </AuthProvider>
   );
 }
