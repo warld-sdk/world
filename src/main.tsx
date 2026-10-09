@@ -3,6 +3,10 @@ import {createRoot} from 'react-dom/client';
 import App from './App.tsx';
 import {ErrorBoundary} from './ErrorBoundary.tsx';
 import './index.css';
+import { inject } from '@vercel/analytics';
+
+// Inject Vercel Web Analytics
+inject();
 
 // Suppress benign Vite/WebSocket errors and user-cancelled auth popups that occur in this environment
 if (typeof window !== 'undefined') {
