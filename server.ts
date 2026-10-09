@@ -1010,6 +1010,9 @@ Keep answers relatively concise, encouraging, and engaging. Never talk down to t
   });
 
   // Google Search Console Verification Endpoints
+  app.get('/googleVnS8XDZ2aL298Tl1gYguhhvy7vxDKB1V-G7jEa4MKSQ.html', (req, res) => {
+    res.type('text/html').send('google-site-verification: googleVnS8XDZ2aL298Tl1gYguhhvy7vxDKB1V-G7jEa4MKSQ.html');
+  });
   app.get('/googleAF5sK933IL2KBmKdLQ5pWEAkjKbe3thYQ5au-3EWGko.html', (req, res) => {
     res.type('text/html').send('google-site-verification: googleAF5sK933IL2KBmKdLQ5pWEAkjKbe3thYQ5au-3EWGko.html');
   });
