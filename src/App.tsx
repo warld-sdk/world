@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import imageCompression from 'browser-image-compression';
 import * as React from 'react';
 import appBrandLogo from './assets/images/warld_brand_logo_1790672485970.jpg';
@@ -19368,6 +19369,7 @@ function EditPostModal({ video, onClose }: { video: any, onClose: () => void }) 
 export default function App() {
   return (
     <AuthProvider>
+      <SpeedInsights />
       <WorldApp />
     </AuthProvider>
   );
