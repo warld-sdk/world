@@ -141,6 +141,7 @@ import {
   limit,
   arrayUnion
 } from 'firebase/firestore';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // Deduplicate helper by ID property to prevent key collisions across React maps
 function deduplicateById(arr: any[]): any[] {
@@ -19369,6 +19370,7 @@ export default function App() {
   return (
     <AuthProvider>
       <WorldApp />
+      <SpeedInsights />
     </AuthProvider>
   );
 }
