@@ -1,5 +1,6 @@
 import imageCompression from 'browser-image-compression';
 import * as React from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import appBrandLogo from './assets/images/warld_brand_logo_1790672485970.jpg';
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -19369,6 +19370,7 @@ export default function App() {
   return (
     <AuthProvider>
       <WorldApp />
+      <SpeedInsights />
     </AuthProvider>
   );
 }
