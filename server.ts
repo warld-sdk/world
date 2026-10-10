@@ -1009,15 +1009,9 @@ Keep answers relatively concise, encouraging, and engaging. Never talk down to t
     }
   });
 
-  // Google Search Console Verification Endpoints
-  app.get('/googleVnS8XDZ2aL298Tl1gYguhhvy7vxDKB1V-G7jEa4MKSQ.html', (req, res) => {
-    res.type('text/html').send('google-site-verification: googleVnS8XDZ2aL298Tl1gYguhhvy7vxDKB1V-G7jEa4MKSQ.html');
-  });
-  app.get('/googleAF5sK933IL2KBmKdLQ5pWEAkjKbe3thYQ5au-3EWGko.html', (req, res) => {
-    res.type('text/html').send('google-site-verification: googleAF5sK933IL2KBmKdLQ5pWEAkjKbe3thYQ5au-3EWGko.html');
-  });
-  app.get(['/googlescRkJJwc8aF_7UuXLNkLAyuV0UFQ65q4eGrqxvMJG_g.html', '/google-site-verification.html'], (req, res) => {
-    res.type('text/html').send('google-site-verification: googlescRkJJwc8aF_7UuXLNkLAyuV0UFQ65q4eGrqxvMJG_g.html');
+  // Google Search Console Verification Endpoint
+  app.get('/googleekHyFxotj08S1-8xlbKnmFJ9oZRURBY4ChRPOYhiLpw.html', (req, res) => {
+    res.type('text/html').send('google-site-verification: googleekHyFxotj08S1-8xlbKnmFJ9oZRURBY4ChRPOYhiLpw.html');
   });
 
   // Static files and Vite integration
